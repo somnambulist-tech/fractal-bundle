@@ -1,0 +1,40 @@
+{
+    "name": "somnambulist/fractal-bundle",
+    "type": "symfony-bundle",
+    "description": "A port of samj/fractal-bundle for integrating TheLeague Fractal into Symfony",
+    "keywords": [
+        "fractal",
+        "symfony"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dave Redfern",
+            "email": "info@somnambulist.tech"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "league/fractal": "^0.19",
+        "symfony/framework-bundle": "^5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.5",
+        "symfony/stopwatch": "~5.2",
+        "symfony/var-dumper": "~5.2",
+        "symfony/yaml": "~5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Somnambulist\\Bundles\\FractalBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Somnambulist\\Bundles\\FractalBundle\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}

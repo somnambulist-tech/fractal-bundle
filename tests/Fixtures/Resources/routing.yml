@@ -1,0 +1,14 @@
+list_of_books:
+    path:      /books
+    controller: Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Controller\BooksController::listOfBooksAction
+
+book_details:
+    path:      /books/{id}
+    controller: Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Controller\BooksController::bookDetailsAction
+    requirements:
+        id: w+
+
+list_of_authors:
+    path:      /authors
+    controller: Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Controller\AuthorsController::listOfAuthorsAction
+

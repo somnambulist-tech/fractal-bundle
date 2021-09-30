@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="League\Fractal\Manager" class="League\Fractal\Manager" public="true">
+            <argument key="$scopeFactory" type="service" id="Somnambulist\Bundles\FractalBundle\ScopeFactory" />
+        </service>
+        <service id="somnambulist.fractal_bundle.manager" alias="League\Fractal\Manager" />
+
+        <service id="Somnambulist\Bundles\FractalBundle\ScopeFactory" class="Somnambulist\Bundles\FractalBundle\ScopeFactory">
+            <argument type="tagged_locator" tag="somnambulist.fractal_bundle.transformer" />
+        </service>
+
+        <service id="League\Fractal\ScopeFactoryInterface" alias="Somnambulist\Bundles\FractalBundle\ScopeFactory" />
+    </services>
+</container>
