@@ -16,13 +16,13 @@
     "require": {
         "php": ">=8.0",
         "league/fractal": "^0.19",
-        "symfony/framework-bundle": "^5.2"
+        "symfony/framework-bundle": "^5.3|^6.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.5",
-        "symfony/stopwatch": "~5.2",
-        "symfony/var-dumper": "~5.2",
-        "symfony/yaml": "~5.2"
+        "symfony/stopwatch": "~5.4",
+        "symfony/var-dumper": "~5.4",
+        "symfony/yaml": "~5.4"
     },
     "autoload": {
         "psr-4": {

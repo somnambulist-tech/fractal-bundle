@@ -5,6 +5,7 @@ namespace Somnambulist\Bundles\FractalBundle\Tests\Fixtures;
 use Somnambulist\Bundles\FractalBundle\SomnambulistFractalBundle;
 use Symfony\Bundle\FrameworkBundle\FrameworkBundle;
 use Symfony\Component\Config\Loader\LoaderInterface;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Kernel;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\Author;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\Book;
@@ -17,21 +18,21 @@ use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\Book;
  */
 class App extends Kernel
 {
-    protected function buildContainer()
+    protected function buildContainer(): ContainerBuilder
     {
         $container = parent::buildContainer();
 
         return $container;
     }
 
-    public function boot()
+    public function boot(): void
     {
         parent::boot();
 
         $this->populateData();
     }
 
-    public function registerBundles()
+    public function registerBundles(): array
     {
         $bundles = [
             new FrameworkBundle(),
@@ -42,7 +43,7 @@ class App extends Kernel
         return $bundles;
     }
 
-    public function registerContainerConfiguration(LoaderInterface $loader)
+    public function registerContainerConfiguration(LoaderInterface $loader): void
     {
         $loader->load(__DIR__ . '/Resources/config.yml');
     }

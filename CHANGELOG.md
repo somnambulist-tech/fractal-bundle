@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+2021-12-14
+----------
+
+ * allow Symfony 6.0
+ * require Symfony 5.3+
+
 2021-09-30
 ----------
 
