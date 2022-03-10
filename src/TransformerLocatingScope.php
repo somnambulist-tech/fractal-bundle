@@ -21,7 +21,7 @@ class TransformerLocatingScope extends Scope
 {
     private ServiceLocator $transformers;
 
-    public function __construct(ServiceLocator $transformers, Manager $manager, ResourceInterface $resource, $scopeIdentifier = null)
+    public function __construct(ServiceLocator $transformers, Manager $manager, ResourceInterface $resource, string $scopeIdentifier = null)
     {
         parent::__construct($manager, $resource, $scopeIdentifier);
 
@@ -33,9 +33,12 @@ class TransformerLocatingScope extends Scope
      * @param mixed                        $data
      *
      * @return array
+     * @throws \Psr\Container\ContainerExceptionInterface
+     * @throws \Psr\Container\NotFoundExceptionInterface
+     * @throws InvalidArgumentException
      * @internal
      */
-    protected function fireTransformer($transformer, $data)
+    protected function fireTransformer($transformer, $data): array
     {
         if (is_string($transformer) && $this->transformers->has($transformer)) {
             $transformer = $this->transformers->get($transformer);

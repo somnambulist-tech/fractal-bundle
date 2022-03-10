@@ -15,7 +15,7 @@ use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Services;
  */
 class BookTransformer extends TransformerAbstract
 {
-    protected $availableIncludes = ['author','comments'];
+    protected array $availableIncludes = ['author','comments'];
 
     public function transform(Book $book)
     {

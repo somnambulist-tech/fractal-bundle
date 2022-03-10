@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+2022-03-10
+----------
+
+ * update to league/fractal 0.20.0, note this is a BC break 0.20 adds type hints
+
 2021-12-14
 ----------
 
