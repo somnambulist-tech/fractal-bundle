@@ -8,12 +8,6 @@ use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Controller\BooksController
 use Symfony\Component\HttpFoundation\Request;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\App;
 
-/**
- * Class FractalBundleTest
- *
- * @package    Somnambulist\Bundles\FractalBundle\Tests
- * @subpackage Somnambulist\Bundles\FractalBundle\Tests\FractalBundleTest
- */
 class FractalBundleTest extends TestCase
 {
     private ?App $app;

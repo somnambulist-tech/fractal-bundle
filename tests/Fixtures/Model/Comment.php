@@ -4,12 +4,6 @@ namespace Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model;
 
 use DateTime;
 
-/**
- * Class Comment
- *
- * @package    Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model
- * @subpackage Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\Comment
- */
 class Comment
 {
     private string   $id;

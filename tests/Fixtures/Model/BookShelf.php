@@ -2,12 +2,6 @@
 
 namespace Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model;
 
-/**
- * Class BookShelf
- *
- * @package    Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model
- * @subpackage Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\BookShelf
- */
 final class BookShelf
 {
     private array $books = [];

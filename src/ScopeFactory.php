@@ -8,12 +8,6 @@ use League\Fractal\Scope;
 use League\Fractal\ScopeFactoryInterface;
 use Symfony\Component\DependencyInjection\ServiceLocator;
 
-/**
- * Class ScopeFactory
- *
- * @package    Somnambulist\Bundles\FractalBundle
- * @subpackage Somnambulist\Bundles\FractalBundle\ScopeFactory
- */
 class ScopeFactory implements ScopeFactoryInterface
 {
     public function __construct(

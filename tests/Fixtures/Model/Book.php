@@ -4,12 +4,6 @@ namespace Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model;
 
 use DateTime;
 
-/**
- * Class Book
- *
- * @package    Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model
- * @subpackage Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\Book
- */
 class Book
 {
     private string   $id;

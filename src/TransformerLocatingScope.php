@@ -11,12 +11,6 @@ use Somnambulist\Bundles\FractalBundle\DependencyInjection\SomnambulistFractalEx
 use Symfony\Component\DependencyInjection\ServiceLocator;
 use function is_callable;
 
-/**
- * Class TransformerLocatingScope
- *
- * @package    Somnambulist\Bundles\FractalBundle
- * @subpackage Somnambulist\Bundles\FractalBundle\TransformerLocatingScope
- */
 class TransformerLocatingScope extends Scope
 {
     private ServiceLocator $transformers;

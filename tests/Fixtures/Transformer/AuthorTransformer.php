@@ -8,12 +8,6 @@ use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\Author;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\BookShelf;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Services;
 
-/**
- * Class AuthorTransformer
- *
- * @package    Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Transformer
- * @subpackage Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Transformer\AuthorTransformer
- */
 class AuthorTransformer extends TransformerAbstract
 {
     protected array $availableIncludes = ['books'];

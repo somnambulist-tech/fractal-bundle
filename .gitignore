@@ -13,6 +13,7 @@ composer.lock
 ## Directory-based project format:
 .idea/
 .phpstorm.meta.php
+phpunit.xml
 _ide_helper.php
 # if you remove the above rule, at least ignore the following:
 

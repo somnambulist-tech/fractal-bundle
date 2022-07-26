@@ -10,12 +10,6 @@ use Symfony\Component\HttpFoundation\Request;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\BookShelf;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Services;
 
-/**
- * Class AuthorsController
- *
- * @package    Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Controller
- * @subpackage Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Controller\AuthorsController
- */
 class AuthorsController extends AbstractController
 {
     use FractalTrait;

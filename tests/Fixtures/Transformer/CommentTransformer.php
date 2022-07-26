@@ -5,12 +5,6 @@ namespace Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Transformer;
 use DateTime;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\Comment;
 
-/**
- * Class CommentTransformer
- *
- * @package    Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Transformer
- * @subpackage Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Transformer\CommentTransformer
- */
 class CommentTransformer
 {
     public function transform(Comment $comment)

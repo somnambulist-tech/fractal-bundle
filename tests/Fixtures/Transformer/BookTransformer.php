@@ -7,12 +7,6 @@ use League\Fractal\TransformerAbstract;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\Book;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Services;
 
-/**
- * Class BookTransformer
- *
- * @package    Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Transformer
- * @subpackage Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Transformer\BookTransformer
- */
 class BookTransformer extends TransformerAbstract
 {
     protected array $availableIncludes = ['author','comments'];

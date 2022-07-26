@@ -2,12 +2,6 @@
 
 namespace Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model;
 
-/**
- * Class Author
- *
- * @package    Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model
- * @subpackage Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\Author
- */
 final class Author
 {
     private string $id;

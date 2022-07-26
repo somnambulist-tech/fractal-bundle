@@ -5,12 +5,6 @@ namespace Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Controller;
 use League\Fractal\Manager;
 use Symfony\Component\HttpFoundation\Request;
 
-/**
- * Trait FractalTrait
- *
- * @package    Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Controller
- * @subpackage Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Controller\FractalTrait
- */
 trait FractalTrait
 {
     protected Manager $fractal;

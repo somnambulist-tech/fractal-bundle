@@ -10,12 +10,6 @@ use Symfony\Component\HttpKernel\Kernel;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\Author;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Model\Book;
 
-/**
- * Class App
- *
- * @package    Somnambulist\Bundles\FractalBundle\Tests\Fixtures
- * @subpackage Somnambulist\Bundles\FractalBundle\Tests\Fixtures\App
- */
 class App extends Kernel
 {
     protected function buildContainer(): ContainerBuilder

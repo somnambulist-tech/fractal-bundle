@@ -8,12 +8,6 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
-/**
- * Class SomnambulistFractalExtension
- *
- * @package    Somnambulist\Bundles\FractalBundle\DependencyInjection
- * @subpackage Somnambulist\Bundles\FractalBundle\DependencyInjection\SomnambulistFractalExtension
- */
 class SomnambulistFractalExtension extends Extension
 {
     public const TRANSFORMER_TAG_NAME = 'somnambulist.fractal_bundle.transformer';
