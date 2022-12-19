@@ -1,6 +1,6 @@
 # Somnambulist Fractal Bundle
 
-[![GitHub Actions Build Status](https://img.shields.io/github/workflow/status/somnambulist-tech/fractal-bundle/tests?logo=github)](https://github.com/somnambulist-tech/fractal-bundle/actions?query=workflow%3Atests)
+[![GitHub Actions Build Status](https://img.shields.io/github/actions/workflow/status/somnambulist-tech/fractal-bundle/tests.yml?logo=github&branch=main)](https://github.com/somnambulist-tech/fractal-bundle/actions?query=workflow%3Atests)
 [![Issues](https://img.shields.io/github/issues/somnambulist-tech/fractal-bundle?logo=github)](https://github.com/somnambulist-tech/fractal-bundle/issues)
 [![License](https://img.shields.io/github/license/somnambulist-tech/fractal-bundle?logo=github)](https://github.com/somnambulist-tech/fractal-bundle/blob/main/LICENSE)
 [![PHP Version](https://img.shields.io/packagist/php-v/somnambulist/fractal-bundle?logo=php&logoColor=white)](https://packagist.org/packages/somnambulist/fractal-bundle)
