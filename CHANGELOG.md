@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+2024-02-24
+----------
+
+ * require Symfony 6.4+
+ * add support for Symfony 7
+
 2022-07-11
 ----------
 
