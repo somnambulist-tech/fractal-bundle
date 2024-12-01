@@ -15,12 +15,12 @@ class ScopeFactory implements ScopeFactoryInterface
     ) {
     }
 
-    public function createScopeFor(Manager $manager, ResourceInterface $resource, string $scopeIdentifier = null): Scope
+    public function createScopeFor(Manager $manager, ResourceInterface $resource, ?string $scopeIdentifier = null): Scope
     {
         return new TransformerLocatingScope($this->transformers, $manager, $resource, $scopeIdentifier);
     }
 
-    public function createChildScopeFor(Manager $manager, Scope $parentScope, ResourceInterface $resource, string $scopeIdentifier = null): Scope
+    public function createChildScopeFor(Manager $manager, Scope $parentScope, ResourceInterface $resource, ?string $scopeIdentifier = null): Scope
     {
         $scopeInstance = $this->createScopeFor($manager, $resource, $scopeIdentifier);
 

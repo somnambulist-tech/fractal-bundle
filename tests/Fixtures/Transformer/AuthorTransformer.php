@@ -24,7 +24,7 @@ class AuthorTransformer extends TransformerAbstract
         ];
     }
 
-    public function includeBooks(Author $author, ParamBag $params = null)
+    public function includeBooks(Author $author, ?ParamBag $params = null)
     {
         if (null === $params) {
             $params = new ParamBag(['limit' => []]);

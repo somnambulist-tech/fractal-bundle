@@ -20,7 +20,7 @@ class BookTransformer extends TransformerAbstract
         ];
     }
 
-    public function includeComments(Book $book, ParamBag $params)
+    public function includeComments(Book $book, ?ParamBag $params)
     {
         [$limit] = $params->get('limit');
 

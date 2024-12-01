@@ -15,7 +15,7 @@ class TransformerLocatingScope extends Scope
 {
     private ServiceLocator $transformers;
 
-    public function __construct(ServiceLocator $transformers, Manager $manager, ResourceInterface $resource, string $scopeIdentifier = null)
+    public function __construct(ServiceLocator $transformers, Manager $manager, ResourceInterface $resource, ?string $scopeIdentifier = null)
     {
         parent::__construct($manager, $resource, $scopeIdentifier);
 
