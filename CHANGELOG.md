@@ -6,6 +6,7 @@ Change Log
 
  * fix additional deprecations
  * switch to PHPUnit 11.X
+ * drop PHP 8.1 from test suite
 
 2024-12-01
 ----------

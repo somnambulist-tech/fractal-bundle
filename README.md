@@ -11,7 +11,7 @@ integration with the Symfony Framework.
 
 ## Requirements
 
- * PHP 8.0+
+ * PHP 8.2+
  * symfony/framework-bundle 6.4+
 
 ## Installation
