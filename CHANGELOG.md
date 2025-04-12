@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+2025-04-12
+----------
+
+ * fix additional deprecations
+ * switch to PHPUnit 11.X
+
 2024-12-01
 ----------
 

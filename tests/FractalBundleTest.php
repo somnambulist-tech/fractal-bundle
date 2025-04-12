@@ -4,9 +4,9 @@ namespace Somnambulist\Bundles\FractalBundle\Tests;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
+use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\App;
 use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\Controller\BooksController;
 use Symfony\Component\HttpFoundation\Request;
-use Somnambulist\Bundles\FractalBundle\Tests\Fixtures\App;
 
 class FractalBundleTest extends TestCase
 {

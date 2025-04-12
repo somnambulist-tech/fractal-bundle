@@ -19,11 +19,11 @@
         "symfony/framework-bundle": "^6.4|^7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^10.5",
-        "symfony/phpunit-bridge": "^6.4",
-        "symfony/stopwatch": "^6.4",
-        "symfony/var-dumper": "^6.4",
-        "symfony/yaml": "^6.4"
+        "phpunit/phpunit": "^11.5",
+        "symfony/phpunit-bridge": "^7.0",
+        "symfony/stopwatch": "^7.0",
+        "symfony/var-dumper": "^7.0",
+        "symfony/yaml": "^7.0"
     },
     "autoload": {
         "psr-4": {
