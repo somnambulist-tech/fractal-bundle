@@ -11,8 +11,8 @@ integration with the Symfony Framework.
 
 ## Requirements
 
- * PHP 8.2+
- * symfony/framework-bundle 6.4+
+ * PHP 8.3+
+ * symfony/framework-bundle 7+
 
 ## Installation
 
@@ -95,4 +95,4 @@ Look in the [sample application](tests/Fixtures) for some further examples.
 
 ## Tests
 
-PHPUnit 9+ is used for testing. Run tests via `vendor/bin/phpunit`.
+PHPUnit 12+ is used for testing. Run tests via `vendor/bin/phpunit`.
