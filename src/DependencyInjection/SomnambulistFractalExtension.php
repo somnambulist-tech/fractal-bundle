@@ -14,8 +14,8 @@ class SomnambulistFractalExtension extends Extension
 
     public function load(array $configs, ContainerBuilder $container): void
     {
-        $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
-        $loader->load('services.xml');
+        $loader = new Loader\PhpFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+        $loader->load('services.php');
 
         $container->registerForAutoconfiguration(TransformerAbstract::class)->addTag(self::TRANSFORMER_TAG_NAME);
     }
